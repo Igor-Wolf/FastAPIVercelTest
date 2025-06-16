@@ -11,6 +11,8 @@ pip install fastapi[standard]
 fastapi dev main.py --port 8085
 
 
+pip freeze > requirements.txt
+
 
 
 uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload

@@ -1,3 +1,3 @@
 
 def get_users_from_db():
-    return ["thiago" , "roberto"]
+    return ["thiago" , "roberto" , "maria"]

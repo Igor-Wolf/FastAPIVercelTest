@@ -12,7 +12,11 @@ fastapi dev main.py --port 8085
 
 
 pip freeze > requirements.txt
+uvicorn main:app  --port 8000 --reload
 
 
 
-uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+doocker 
+
+docker run -d -p 8000:8000 fastapi
